@@ -26,7 +26,7 @@
 // compilation on android x64
 
 #include <stdio.h>
-#define av_sscanf sscanf
+// #define av_sscanf sscanf
 
 #if 0
 

@@ -405,6 +405,7 @@ int av_utf8_decode(int32_t *codep, const uint8_t **bufp, const uint8_t *buf_end,
  */
 int av_match_list(const char *name, const char *list, char separator);
 
+#define av_sscanf sscanf
 /**
  * See libc sscanf manual for more information.
  * Locale-independent sscanf implementation.
